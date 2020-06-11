@@ -1,0 +1,382 @@
+* {
+    margin: 0px;
+	padding: 0px;
+}
+body {
+    width: 1600px;
+    font-family: roboto , sans-serif;
+}
+ .top_line {
+    height: 80px;
+    display:flex;
+    background: #FFFFFF;
+    }
+.studia_link:focus,
+.studia_link:hover {
+   
+    color: #2196F3;
+}
+.nav {
+    width: 294px;
+    list-style: none;
+    display: flex;
+ }
+
+ .nav li {
+     width: 100px;
+ }
+
+ .nav li a{
+    text-align: center;
+    padding-top: 32px;
+    display: block;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+ .address_top_line {
+    margin-left: 305px; 
+    list-style: none;
+    display: flex;
+ } 
+
+ .address_top_line li {
+    width: 150px;
+
+ }
+
+.address_top_line a {
+    text-align: center;
+    padding-top: 32px;
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+
+
+.logo-studio {
+    width: 153px;
+    height: 31px;
+    padding-left: 215px;
+    padding-top: 24px;
+    margin-right: 85px;
+ }
+
+.logo-studio a span {
+    color: #2196F3
+}
+.logo-studio a {
+    color:#000;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    }
+
+.service {
+    margin-bottom: 94px;
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background-image: url(./css/image/service.png);
+    background: rgba(47, 48, 58, 0.8);
+    
+}
+
+.service-title {
+    width: 696px;
+    height: 120px;
+    margin-top: 200px;
+    margin-left: 452px;
+    margin-right: 452px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.service_button {
+    margin-left: 700px;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    
+}
+
+.features{
+    position: absolute;
+    width: 1170px;
+    height: 251px;
+    left: 215px;
+    top: 774px;
+}
+.features-navigation {
+    display: flex;
+    list-style: none;
+}
+.features-navigation li {
+    width: 270px;
+}
+.features-navigation h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.features-navigation p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+.activity_company {
+    position: absolute;
+    width: 1170px;
+    height: 386px;
+    left: 215px;
+    top: 1213px;
+}
+.our_clients h2,
+.our_team h2,
+.activity_company h2 {
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.activity-nav {
+    list-style: none;
+    display: flex;
+}
+.activity-nav li {
+    width: 390px;
+
+}
+.activity-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+   
+    
+   
+}
+.activity-nav  h3 {
+    position: absolute;
+    width: 370px;
+    height: 45px;
+    margin: -74px;
+    margin-left:0px;
+    padding-top: 27px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: rgba(47, 48, 58, 0.8);
+    color: #fff;
+  
+
+}
+.our_team {
+    position: absolute;
+    width: 1600px;
+    height: 702px;
+    left: 0px;
+    top: 1693px;
+    background: #F5F4FA;
+   
+}
+.our_team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.our_team p {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.our_team_workers {
+    display: flex;
+    position: absolute;
+    width: 1170px;
+    height: 422px;
+    left: 215px;
+    top: 200px;
+    list-style: none;
+}
+
+.our_clients {
+    position: absolute;
+    width: 1170px;
+    height: 182px;
+    left: 215px;
+    top: 2489px;
+
+}
+
+.our_clients_nav {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    width: 1000px
+}
+
+
+.our_clients_nav li {
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+
+.our_clients_nav a {
+    padding-left: 60px;
+}
+
+.footer_studio {
+    display: flex;
+    position: absolute;
+    width: 1600px;
+    height: 253px;
+    left: 1px;
+    top: 2765px;
+    background: #2F303A;
+}
+.logo-studio-footer a span {
+    color: #2196F3
+}
+.logo-studio-footer a {
+    color:#fff;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    }
+
+.address_footer {
+    margin-top: 8px;
+    list-style: none;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #fff;
+}
+
+.address_footer a {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.6);
+  
+}
+
+
+.contacts_footer {
+    margin-top: 45px ;
+    margin-left: 214px;
+}
+
+.footer_social_network {
+    margin-top: 57px;
+    color: #fff;
+    margin-left: 69px;
+}
+.footer_social_network ul {
+    list-style: none;
+}
+.footer_social_network a {
+    color: #fff;
+}
+
+.content_project {
+    position: absolute;
+    width: 1170px;
+    height: 1360px;
+    left: 215px;
+    top: 174px;
+}
+
+
+
+.portfolio_projects, .filtres_portfolio_items {
+    display: flex;
+    list-style: none;
+}
+
+.portfolio_projects a,.filtres_portfolio_items a {
+    text-decoration: none;
+}
+.filtres_portfolio_items h1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+
+.portfolio_projects h2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.portfolio_projects p {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
