@@ -16,7 +16,7 @@ body {
    
     color: #2196F3;
 }
-.nav {
+.nav-list {
     width: 294px;
     list-style: none;
     display: flex;
@@ -93,7 +93,7 @@ body {
     height: 600px;
     left: 0px;
     top: 80px;
-    background-image: url(./css/image/service.png);
+    background-image: url("../image/service.png");
     background: rgba(47, 48, 58, 0.8);
     
 }
