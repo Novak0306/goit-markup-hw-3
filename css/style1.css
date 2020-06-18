@@ -182,16 +182,18 @@ body {
     background: #F5F4FA;
     border-radius: 4px;
     padding-top: 25px;
-    margin-bottom: 30px;
+ 
 }
 .features-navigation h3 {
+    padding-top: 30px;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
-    margin-bottom: 10px;
+    
 }
 .features-navigation p {
     font-size: 14px;
@@ -245,6 +247,7 @@ body {
   
 }
   .our_team {
+    padding-top: 94px;
     width: 1600px;
     background: #F5F4FA;
      margin-left: auto;
@@ -253,12 +256,24 @@ body {
 .our_team_workers {
     display: flex;
 }
+.item-worker {
+    display: block;
+    width: 270px;
+    background: #FFFFFF;
+
+
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 4px 4px;
+
+}
 
 .our_team_workers .item+.item {
     margin-left: 30px;
 }
 .our_team h3 {
-    margin-top: 30px;
+    padding-top: 30px;
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -268,7 +283,7 @@ body {
     color: #212121;
 }
 .our_team p {
-    margin-bottom: 16px;
+    padding-bottom: 16px;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -328,8 +343,8 @@ body {
 }
 
 .contacts_footer {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .logo-studio-footer a span {
     color: #2196F3
@@ -377,7 +392,7 @@ body {
 .footer_social_network {
     color: #fff;
     margin-left: 69px;
-    margin-top: 60px;
+    padding-top: 60px;
 }
 
 .footer_social_network p {
