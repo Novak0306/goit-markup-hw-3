@@ -4,11 +4,6 @@
     padding: 0px;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
 
 
 body {
@@ -297,6 +292,7 @@ body {
 }
 .our_clients_nav {
     display: flex;
+    justify-content: center;
 }
 
 .our_clients_nav .item+.item {
