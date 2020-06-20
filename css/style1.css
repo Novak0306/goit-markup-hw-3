@@ -449,10 +449,11 @@ body {
 }
 
 .flex-item {
-    width: 370px;
+    width: calc((100% - 60px) / 3);
+    
     margin-right: 30px;
     margin-bottom: 30px;
-    outline: 1px solid #EEEEEE;
+    border: 1px solid #EEEEEE;
 }
 
 .flex-item:nth-child(3n) {
@@ -474,7 +475,8 @@ body {
 }
 
 .portfolio_projects p {
-    display: inline-block;
+    display: block;
+    
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 4px;
