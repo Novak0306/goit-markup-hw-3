@@ -411,19 +411,10 @@ body {
     color: #fff;
 }
 
-.portfolio_projects a,.filtres_portfolio_items a {
+.portfolio_projects a {
     text-decoration: none;
 }
-.filtres_portfolio_items h1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
 
-    color: #212121;
-
-}
 .content_projects {
     padding-top: 94px;
     padding-bottom: 94px;
