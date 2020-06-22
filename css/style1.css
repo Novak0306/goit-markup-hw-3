@@ -112,7 +112,7 @@ body {
      height: 600px;
      margin-left: auto;
      margin-right: auto;
-     width: 1600px;
+     
    
         
         background-image: url("../css/image/service.png");
@@ -214,7 +214,11 @@ body {
 }
 .activity-nav {
     display: flex;
-    
+  
+}
+
+.activity-item {
+    width: 370px;
 }
 .activity-nav .item+.item {  
     margin-left: 30px;
@@ -244,7 +248,7 @@ body {
   .our_team {
     padding-top: 94px;
     padding-bottom: 94px;
-    width: 1600px;
+    
     background: #F5F4FA;
      margin-left: auto;
      margin-right: auto;
@@ -328,7 +332,7 @@ body {
 /*   Style footer                             */
 
 .footer_studio {
-    width: 1600px;
+
     margin-left: auto;
     margin-right: auto;
     background: #2F303A;
@@ -340,6 +344,7 @@ body {
 }
 
 .contacts_footer {
+    width: 231px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -387,6 +392,7 @@ body {
  }
     
 .footer_social_network {
+    width: 206px;
     color: #fff;
     margin-left: 69px;
     padding-top: 60px;
